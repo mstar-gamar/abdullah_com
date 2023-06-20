@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>موقع الأزرار العمودية المحترف</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff4c4c;
+            color: #ffffff;
+            text-decoration: none;
+            margin: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+            width: 200px;
+            text-align: center;
+        }
+
+        .button:hover {
+            background-color: #ff7878;
+            transform: scale(1.05);
+        }
+
+        .button:active {
+            background-color: #ff0000;
+            transform: scale(1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+
+        .container {
+            background-color: #07fa27;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>صاحب الموقع: عبدالله بن راشد الخروصي</h1>
+        <h1>اختار الموقع بوابة للتواصل معي</h1>
+        <div class="button-container">
+            <a href="https://www.instagram.com/albdalh321/" class="button">انستجرام</a>
+            <a href="https://twitter.com/OmaniGamer19" class="button">تويتر</a>
+            <a href="https://2u.pw/FCm38Jr" class="button">قناتي في اليوتيوب</a>
+            <a href="https://www.twitch.tv/abdullahcom22" class="button">قناتي في تويتش</a>
+            <a href="https://2u.pw/7Net9AH" class="button">سناب شات</a>
+            <h1>حساب فورتنايت: abdullah_on_top2</h1>
+        </div>
+    </div>
+</body>
+</html>
